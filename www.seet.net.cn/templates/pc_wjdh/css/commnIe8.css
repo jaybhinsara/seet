@@ -1,0 +1,189 @@
+/*
+*copyright by 动力无限 v4.0  www.btoe.cn
+*邮箱 btoe@btoe.cn
+*合作电话 400-0599-360
+*版权所有违者必究
+/*-----------------------------------------------------------*/
+
+html{
+    font-size: 625%
+}
+
+.newsListRtopR p{
+    height: 0.6rem;
+}
+
+.newsListLtext p{
+    height: .45rem;
+}
+
+.newsQa ul li{
+    width: 32%;
+    float: left;
+    margin: 0 .5% .2rem;
+}
+
+.honor ul li{
+    width: 20%;
+    float: left;
+   
+}
+
+.honor ul {
+     height: 2.8rem;
+     overflow: hidden;
+}
+
+.honorArrow{
+    display: none;
+}
+
+
+.caseRecenter{
+    height: 4.rem;
+    overflow: hidden;
+}
+
+
+
+.col-lg-2-0 {
+    width: 20%;
+    float: left;
+}
+
+.col-lg-8-0 {
+    width: 79%;
+    float: left;
+}
+
+
+.proList_sort{
+    height: 2rem;
+    overflow: hidden;
+}
+
+
+.view{
+    height: 3.6rem;
+    overflow: hidden;
+}
+
+.preview {
+    display: none;
+}
+
+.proMessage{
+    margin-top: .4rem;
+}
+
+.productsLir i .proMored {
+    display: none;
+}
+
+.prolistImgd:hover .proMored {
+    display: none;
+}
+
+.aboutR p{
+    height: .2rem;
+}
+
+.casemImg ul li{
+    float: left;
+    width: 25%;
+}
+
+.honorImg1 span::before{
+    display: none;
+}
+
+
+/* 
+.proListclass1{
+    display: none;
+}
+
+a,span,b,i,p,div,input,textarea,ul,li{
+    font-size: 15px !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 30px !important;
+    margin-top: 20px !important;
+}
+
+input{
+    line-height: 2;
+    height: 30px;
+    margin-bottom: 20px;
+}
+textarea{
+    line-height: 2;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.proBg{
+    height: 90px;
+}
+
+.proBg ul li{
+    line-height: 30px;
+
+}
+
+.caseTitleR  a{
+    font-size: 18px;
+    line-height: 40px;
+    display: block;
+}
+.caseTitleR li{
+    height: 40px;
+}
+.proHot{
+    display: none;
+}
+.aboutTitle{
+    height: 380px;
+}
+
+.newsListLtext span{
+    display: none;
+}
+
+.newsListLtext img{
+    height: 230px !important;
+}
+
+.newsListLtext  a,.newsListLtext p{
+    display: none;
+}
+
+.newsListRtop span,.newsListRtop b{
+    display: none;
+}
+.newsTop{
+    margin-top: 30px !important;
+}
+.newsListRtopR  p{
+    height: 50px !important;
+}
+.productsTopvd {
+    height: 60px !important;
+}
+
+.casemfx{
+    height: 30px !important;
+}
+
+.bdsharebuttonbox{
+    display: none;
+}
+
+.caseTab ul li{
+    padding: 20px !important;
+}
+
+.newsText{
+    height: 20px !important;
+    overflow: hidden;
+} */

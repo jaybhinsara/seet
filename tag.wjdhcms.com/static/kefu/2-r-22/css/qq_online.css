@@ -1,0 +1,123 @@
+@charset "utf-8";
+#wjdh-kefu .wjdh-kefu-wsbh{ 
+	position: fixed;
+	top: 10%;
+	right: 0;
+	width:80px;
+	height:200px;
+	background:#000; 
+	float: left;
+	margin-top: 100px;
+	z-index:9999999999;
+}
+#wjdh-kefu .wjdh-kefu-wsbh .wjdh-kefu-wsbk li{
+	width: 80px;
+	height: 200px;
+	cursor: pointer;
+}
+#wjdh-kefu .wjdh-kefu-wsbh .wjdh-kefu-wsbk li img{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 8px;
+	
+}
+#wjdh-kefu .wjdh-kefu-wsbh .wjdh-kefu-wsbk li span{
+	width: 16px;
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	margin: 0 auto;
+	line-height: 20px;
+}
+#wjdh-kefu .wjdh-kefu-wszk{ 
+	width:160px; 
+	position: fixed;
+	top: 10%;
+	right: -160px;
+	z-index:9999999999;
+}
+#wjdh-kefu .wjdh-kefu-wszk .zx_gb{
+	width: 150px;
+	height: 25px;
+	background:#000;
+	padding-top: 5px;
+	padding-left: 10px;
+	
+}
+#wjdh-kefu .wjdh-kefu-wszk .zx_gb img{
+	width: 20px;
+	height: 20px;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-zxqq{
+	width:160px;
+	height:auto;
+	background:#000;
+	padding: 10px 0;
+	border-bottom:1px solid #fff;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-zxqq a{
+	width:117px;
+	height: 30px;
+	margin:auto;
+	border:1px #fff solid;
+	text-align:center;
+	line-height: 30px;
+	color:#fff;
+	font-size:14px;
+	border-radius:5px;
+	display:block;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-dhzx{ 
+	width:134px;
+	height:65px;
+	padding-left:26px; 
+	line-height:25px;
+	color:#fff;
+	font-size:16px;
+	padding-top:15px; 
+	background:#000;
+	border-bottom:1px solid #fff;
+	overflow:hidden;
+	box-sizing: content-box;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-ewm{ 
+	width:160px; 
+	height:220px; 
+	background:#000;
+	padding-top:10px;
+	border-bottom:1px solid #fff;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-ewm ul{ 
+	width:145px;
+	margin:auto; 
+	text-align:center;
+	color:#fff;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-ewm ul img{ 
+	width:100px;
+	height:100px; 
+	display:block;
+	margin:auto;
+	overflow:hidden;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-ewm ul .span1{
+	width:145px;
+	height: 20px;
+	line-height:20px;
+	display:block;
+	margin-top:10px;
+	overflow:hidden;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-ewm ul .span2{ 
+	width:145px;
+	height:50px; 
+	line-height:20px; 
+	display:block;
+	margin-top:10px;
+	overflow:hidden;
+}
+#wjdh-kefu .wjdh-kefu-wszk .wjdh-kefu-ewm ul .span2 >span{
+	font-size: 18px;
+}

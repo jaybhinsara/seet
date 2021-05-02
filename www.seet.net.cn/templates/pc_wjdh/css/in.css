@@ -596,22 +596,20 @@
 }
 .b2-1 {
   float: left;
-  width: 650px;
-  height: 100%;
   padding: 86px 0 56px;
   box-sizing: border-box;
 }
-.b2-1 h4 {
-  width: 600px;
-  height: 42px;
-  background: url("../images/b2-h4.png") no-repeat center center;
+.b2-1 p {
+font-size: 27px;
+font-family: sans-serif;
+color: white;
 }
-.b2-1 h5 {
-  width: 648px;
-  height: 24px;
-  margin-top: 46px;
-  background: url("../images/b2-h5.png") no-repeat center center;
+.b2-1 li {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
 }
+  
 .b2-1 h6 {
   font-family: Arial;
   font-size: 14px;

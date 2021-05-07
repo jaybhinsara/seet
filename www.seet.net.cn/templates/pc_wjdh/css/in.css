@@ -803,7 +803,7 @@ color: white;
   display: inline-block;
   vertical-align: text-bottom;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 30px;
   color: #666666;
   margin-left: 10px;
 }
@@ -1311,7 +1311,7 @@ color: white;
   right: 0;
 }
 .link_top h3 {
-  padding-left: 530px;
+  padding-left: 572px;
   box-sizing: border-box;
   font-size: 18px;
   font-weight: bold;
@@ -1320,24 +1320,25 @@ color: white;
 }
 .links {
   width: 100%;
-  height: 14px;
-  margin-top: 26px;
-  overflow: hidden;
+  height: 5pxpx;
+  margin-top: 16px;
+  margin-left: 90px;
 }
 .links li {
   float: left;
   min-width: 65px;
+  word-spacing: 1px;
   font-size: 14px;
-  line-height: 14px;
   color: #666666;
-  margin-right: 124px;
+  margin-right: 160px;
 }
-.links li:last-child {
-  margin-right: 0;
+.links ul {
+  margin-left: 10px;
 }
 .links li a {
   color: #666666;
   transition: all 0.5s;
+  letter-spacing: 1px;
 }
 .links li:hover a {
   color: #1d2088;

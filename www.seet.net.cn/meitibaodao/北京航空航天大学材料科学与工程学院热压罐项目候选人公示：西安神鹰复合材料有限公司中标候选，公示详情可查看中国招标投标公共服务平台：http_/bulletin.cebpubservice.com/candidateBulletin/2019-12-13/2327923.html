@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>从客户端(:)中检测到有潜在危险的 Request.Path 值。</title>
+        <title>A potentially dangerous Request.Path value was detected from the client (:).</title>
         <meta name="viewport" content="width=device-width" />
         <style>
          body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
@@ -25,26 +25,26 @@
 
     <body bgcolor="white">
 
-            <span><H1>“/”应用程序中的服务器错误。<hr width=100% size=1 color=silver></H1>
+            <span><H1>"/" Application server error.<hr width=100% size=1 color=silver></H1>
 
-            <h2> <i>从客户端(:)中检测到有潜在危险的 Request.Path 值。</i> </h2></span>
+            <h2> <i>A potentially dangerous Request.Path value was detected from the client (:).</i> </h2></span>
 
             <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
 
-            <b> 说明: </b>执行当前 Web 请求期间，出现未经处理的异常。请检查堆栈跟踪信息，以了解有关该错误以及代码中导致错误的出处的详细信息。
+            <b> Description: </b>During the execution of the current web request, an unhandled exception occurred. Please check the stack trace for details about the error and the source of the error in the code.
 
             <br><br>
 
-            <b> 异常详细信息: </b>System.Web.HttpException: 从客户端(:)中检测到有潜在危险的 Request.Path 值。<br><br>
+            <b> Exception details: </b>System.Web.HttpException: A potentially dangerous Request.Path value was detected from the client (:).<br><br>
 
-            <b>源错误:</b> <br><br>
+            <b>Source error:</b> <br><br>
 
             <table width=100% bgcolor="#ffffcc">
                <tr>
                   <td>
                       <code>
 
-执行当前 Web 请求期间生成了未经处理的异常。可以使用下面的异常堆栈跟踪信息确定有关异常原因和发生位置的信息。</code>
+                        An unhandled exception was generated during the execution of the current web request. You can use the following exception stack trace information to determine information about the cause and location of the exception.</code>
 
                   </td>
                </tr>
@@ -52,14 +52,14 @@
 
             <br>
 
-            <b>堆栈跟踪:</b> <br><br>
+            <b>Stack trace:</b> <br><br>
 
             <table width=100% bgcolor="#ffffcc">
                <tr>
                   <td>
                       <code><pre>
 
-[HttpException (0x80004005): 从客户端(:)中检测到有潜在危险的 Request.Path 值。]
+[HttpException (0x80004005): A potentially dangerous Request.Path value was detected from the client (:).]
    System.Web.HttpRequest.ValidateInputIfRequiredByConfig() +9728772
    System.Web.PipelineStepManager.ValidateHelper(HttpContext context) +53
 </pre></code>
@@ -72,14 +72,14 @@
 
             <hr width=100% size=1 color=silver>
 
-            <b>版本信息:</b>&nbsp;Microsoft .NET Framework 版本:4.0.30319; ASP.NET 版本:4.0.30319.36400
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework version: 4.0.30319; ASP.NET version: 4.0.30319.36400
 
             </font>
 
     </body>
 </html>
 <!-- 
-[HttpException]: 从客户端(:)中检测到有潜在危险的 Request.Path 值。
+[HttpException]: A potentially dangerous Request.Path value was detected from the client (:).
    在 System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
    在 System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
 -->
